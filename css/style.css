@@ -245,7 +245,28 @@ textarea {
   }
 }
 
-.products {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 450px));
+
+
+/*------------*/
+
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  padding: 0;
 }
+
+.products-list {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.products-list h1 {
+  font-size: 48px;
+  font-weight: 500;
+  text-align: left;
+  color: #1a1a1a;
+  margin-bottom: 30px;
+}
+
